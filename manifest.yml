@@ -1,0 +1,16 @@
+applications:
+- path: .
+memory: 128M
+instances: 1
+domain: mybluemix.net
+name: <アプリケーション名>
+host: <ホスト名>
+disk_quota: 1024M
+services:
+- <Cloudant NoSQL DBのサービス名(例:Coudant NoSQL DB-Aa)>
+- <Tone Analyzerのサービス名>
+- <Conversationのサービス名>
+- <Language Tlanslatorのサービス名>
+env:
+lineBotAccessToken : <LINE botのアクセストークン>
+convesationID : <ConversationのWorkspace ID>

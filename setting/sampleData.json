@@ -1,0 +1,1375 @@
+{
+  "name": "linebot-sample",
+  "created": "2017-10-05T03:56:53.839Z",
+  "intents": [
+    {
+      "intent": "黒",
+      "created": "2017-10-13T08:57:20.750Z",
+      "updated": "2017-10-13T08:58:48.458Z",
+      "examples": [
+        {
+          "text": "黒い車",
+          "created": "2017-10-13T08:57:31.219Z",
+          "updated": "2017-10-13T08:57:31.219Z"
+        },
+        {
+          "text": "黒",
+          "created": "2017-10-13T08:57:27.709Z",
+          "updated": "2017-10-13T08:57:27.709Z"
+        },
+        {
+          "text": "黒いやつ",
+          "created": "2017-10-13T08:57:26.963Z",
+          "updated": "2017-10-13T08:57:26.963Z"
+        },
+        {
+          "text": "黒いの",
+          "created": "2017-10-13T08:57:23.583Z",
+          "updated": "2017-10-13T08:57:23.583Z"
+        },
+        {
+          "text": "黒色",
+          "created": "2017-10-13T08:57:25.101Z",
+          "updated": "2017-10-13T08:57:25.101Z"
+        },
+        {
+          "text": "ブラック",
+          "created": "2017-10-13T08:58:48.458Z",
+          "updated": "2017-10-13T08:58:48.458Z"
+        }
+      ],
+      "description": null
+    },
+    {
+      "intent": "購入希望",
+      "created": "2017-10-05T03:57:21.105Z",
+      "updated": "2017-10-05T03:57:45.224Z",
+      "examples": [
+        {
+          "text": "車を買いたいんだけど",
+          "created": "2017-10-05T03:57:45.224Z",
+          "updated": "2017-10-05T03:57:45.224Z"
+        },
+        {
+          "text": "車がほしい",
+          "created": "2017-10-05T03:57:28.086Z",
+          "updated": "2017-10-05T03:57:28.086Z"
+        },
+        {
+          "text": "車が欲しい",
+          "created": "2017-10-05T03:57:32.801Z",
+          "updated": "2017-10-05T03:57:32.801Z"
+        },
+        {
+          "text": "車が欲しいんだけど",
+          "created": "2017-10-05T03:57:39.059Z",
+          "updated": "2017-10-05T03:57:39.059Z"
+        },
+        {
+          "text": "車を買いたい",
+          "created": "2017-10-05T03:57:42.679Z",
+          "updated": "2017-10-05T03:57:42.679Z"
+        }
+      ],
+      "description": null
+    },
+    {
+      "intent": "条件かっこいい",
+      "created": "2017-10-05T03:58:45.276Z",
+      "updated": "2017-10-05T04:03:43.334Z",
+      "examples": [
+        {
+          "text": "かっこいい",
+          "created": "2017-10-05T03:59:57.225Z",
+          "updated": "2017-10-05T03:59:57.225Z"
+        },
+        {
+          "text": "かっこいいのが良い",
+          "created": "2017-10-05T03:59:48.458Z",
+          "updated": "2017-10-05T03:59:48.458Z"
+        },
+        {
+          "text": "かっこいいのある？",
+          "created": "2017-10-05T03:59:50.912Z",
+          "updated": "2017-10-05T03:59:50.912Z"
+        },
+        {
+          "text": "かっこよければ良い",
+          "created": "2017-10-05T03:59:55.058Z",
+          "updated": "2017-10-05T03:59:55.058Z"
+        },
+        {
+          "text": "かっこいいの",
+          "created": "2017-10-05T04:00:00.179Z",
+          "updated": "2017-10-05T04:00:00.179Z"
+        }
+      ],
+      "description": null
+    },
+    {
+      "intent": "推奨結果",
+      "created": "2017-10-12T05:08:53.827Z",
+      "updated": "2017-10-18T02:32:19.370Z",
+      "examples": [
+        {
+          "text": "良い！",
+          "created": "2017-10-12T05:09:36.070Z",
+          "updated": "2017-10-12T05:09:36.070Z"
+        },
+        {
+          "text": "いいね",
+          "created": "2017-10-12T05:09:31.880Z",
+          "updated": "2017-10-12T05:09:31.880Z"
+        },
+        {
+          "text": "よい",
+          "created": "2017-10-12T05:09:38.621Z",
+          "updated": "2017-10-12T05:09:38.621Z"
+        },
+        {
+          "text": "それでいいよ",
+          "created": "2017-10-12T05:09:43.255Z",
+          "updated": "2017-10-12T05:09:43.255Z"
+        },
+        {
+          "text": "それがいいな",
+          "created": "2017-10-12T05:09:46.423Z",
+          "updated": "2017-10-12T05:09:46.423Z"
+        },
+        {
+          "text": "違う",
+          "created": "2017-10-12T05:10:01.636Z",
+          "updated": "2017-10-12T05:10:01.636Z"
+        },
+        {
+          "text": "いらない",
+          "created": "2017-10-12T05:10:02.470Z",
+          "updated": "2017-10-12T05:10:02.470Z"
+        },
+        {
+          "text": "全然違う",
+          "created": "2017-10-12T05:10:05.319Z",
+          "updated": "2017-10-12T05:10:05.319Z"
+        },
+        {
+          "text": "ぜんぜん違うよ。",
+          "created": "2017-10-12T05:10:15.509Z",
+          "updated": "2017-10-12T05:10:15.509Z"
+        },
+        {
+          "text": "ありがとう",
+          "created": "2017-10-18T02:32:19.370Z",
+          "updated": "2017-10-18T02:32:19.370Z"
+        },
+        {
+          "text": "かっこいいね",
+          "created": "2017-10-18T02:32:15.038Z",
+          "updated": "2017-10-18T02:32:15.038Z"
+        },
+        {
+          "text": "かっこいい",
+          "created": "2017-10-18T02:32:13.190Z",
+          "updated": "2017-10-18T02:32:13.190Z"
+        },
+        {
+          "text": "かわいい",
+          "created": "2017-10-18T02:32:11.455Z",
+          "updated": "2017-10-18T02:32:11.455Z"
+        },
+        {
+          "text": "かわいいね",
+          "created": "2017-10-18T02:32:09.527Z",
+          "updated": "2017-10-18T02:32:09.527Z"
+        },
+        {
+          "text": "こんなのいらない",
+          "created": "2017-10-12T05:10:37.834Z",
+          "updated": "2017-10-12T05:10:37.834Z"
+        },
+        {
+          "text": "こんなの求めてない。",
+          "created": "2017-10-12T05:10:19.535Z",
+          "updated": "2017-10-12T05:10:19.535Z"
+        },
+        {
+          "text": "それがいい",
+          "created": "2017-10-12T05:09:25.768Z",
+          "updated": "2017-10-12T05:09:25.768Z"
+        }
+      ],
+      "description": null
+    },
+    {
+      "intent": "紫",
+      "created": "2017-10-13T09:00:51.134Z",
+      "updated": "2017-10-13T09:01:08.515Z",
+      "examples": [
+        {
+          "text": "紫",
+          "created": "2017-10-13T09:00:53.035Z",
+          "updated": "2017-10-13T09:00:53.035Z"
+        },
+        {
+          "text": "紫の車",
+          "created": "2017-10-13T09:01:08.515Z",
+          "updated": "2017-10-13T09:01:08.515Z"
+        },
+        {
+          "text": "紫色の車",
+          "created": "2017-10-13T09:01:06.182Z",
+          "updated": "2017-10-13T09:01:06.182Z"
+        },
+        {
+          "text": "パープル",
+          "created": "2017-10-13T09:01:02.297Z",
+          "updated": "2017-10-13T09:01:02.297Z"
+        },
+        {
+          "text": "purple",
+          "created": "2017-10-13T09:00:59.810Z",
+          "updated": "2017-10-13T09:00:59.810Z"
+        },
+        {
+          "text": "紫色の",
+          "created": "2017-10-13T09:00:58.058Z",
+          "updated": "2017-10-13T09:00:58.058Z"
+        },
+        {
+          "text": "紫の",
+          "created": "2017-10-13T09:00:56.093Z",
+          "updated": "2017-10-13T09:00:56.093Z"
+        },
+        {
+          "text": "紫色",
+          "created": "2017-10-13T09:00:54.202Z",
+          "updated": "2017-10-13T09:00:54.202Z"
+        }
+      ],
+      "description": null
+    },
+    {
+      "intent": "赤",
+      "created": "2017-10-13T09:01:16.235Z",
+      "updated": "2017-10-13T09:01:45.418Z",
+      "examples": [
+        {
+          "text": "レッド",
+          "created": "2017-10-13T09:01:32.579Z",
+          "updated": "2017-10-13T09:01:32.579Z"
+        },
+        {
+          "text": "赤いの",
+          "created": "2017-10-13T09:01:34.513Z",
+          "updated": "2017-10-13T09:01:34.513Z"
+        },
+        {
+          "text": "赤色",
+          "created": "2017-10-13T09:01:35.791Z",
+          "updated": "2017-10-13T09:01:35.791Z"
+        },
+        {
+          "text": "赤",
+          "created": "2017-10-13T09:01:36.582Z",
+          "updated": "2017-10-13T09:01:36.582Z"
+        },
+        {
+          "text": "赤い車",
+          "created": "2017-10-13T09:01:38.429Z",
+          "updated": "2017-10-13T09:01:38.429Z"
+        },
+        {
+          "text": "赤の車",
+          "created": "2017-10-13T09:01:40.395Z",
+          "updated": "2017-10-13T09:01:40.395Z"
+        },
+        {
+          "text": "赤いやつ",
+          "created": "2017-10-13T09:01:42.137Z",
+          "updated": "2017-10-13T09:01:42.137Z"
+        },
+        {
+          "text": "赤色の",
+          "created": "2017-10-13T09:01:45.418Z",
+          "updated": "2017-10-13T09:01:45.418Z"
+        }
+      ],
+      "description": null
+    },
+    {
+      "intent": "黄色",
+      "created": "2017-10-13T09:03:49.976Z",
+      "updated": "2017-10-13T09:04:20.878Z",
+      "examples": [
+        {
+          "text": "黄色い",
+          "created": "2017-10-13T09:04:00.695Z",
+          "updated": "2017-10-13T09:04:00.695Z"
+        },
+        {
+          "text": "黄色",
+          "created": "2017-10-13T09:03:55.410Z",
+          "updated": "2017-10-13T09:03:55.410Z"
+        },
+        {
+          "text": "黄色の",
+          "created": "2017-10-13T09:03:56.673Z",
+          "updated": "2017-10-13T09:03:56.673Z"
+        },
+        {
+          "text": "黄",
+          "created": "2017-10-13T09:03:58.681Z",
+          "updated": "2017-10-13T09:03:58.681Z"
+        },
+        {
+          "text": "黄色いの",
+          "created": "2017-10-13T09:04:02.079Z",
+          "updated": "2017-10-13T09:04:02.079Z"
+        },
+        {
+          "text": "黄色の車",
+          "created": "2017-10-13T09:04:04.221Z",
+          "updated": "2017-10-13T09:04:04.221Z"
+        },
+        {
+          "text": "黄色い車",
+          "created": "2017-10-13T09:04:08.873Z",
+          "updated": "2017-10-13T09:04:08.873Z"
+        },
+        {
+          "text": "黄色のやつ",
+          "created": "2017-10-13T09:04:10.840Z",
+          "updated": "2017-10-13T09:04:10.840Z"
+        },
+        {
+          "text": "黄色いやつ",
+          "created": "2017-10-13T09:04:12.593Z",
+          "updated": "2017-10-13T09:04:12.593Z"
+        },
+        {
+          "text": "イエロー",
+          "created": "2017-10-13T09:04:15.571Z",
+          "updated": "2017-10-13T09:04:15.571Z"
+        },
+        {
+          "text": "イエローの車",
+          "created": "2017-10-13T09:04:17.213Z",
+          "updated": "2017-10-13T09:04:17.213Z"
+        },
+        {
+          "text": "イエローのやつ",
+          "created": "2017-10-13T09:04:19.437Z",
+          "updated": "2017-10-13T09:04:19.437Z"
+        },
+        {
+          "text": "イエローの",
+          "created": "2017-10-13T09:04:20.878Z",
+          "updated": "2017-10-13T09:04:20.878Z"
+        }
+      ],
+      "description": null
+    },
+    {
+      "intent": "条件かわいい",
+      "created": "2017-10-05T04:04:49.150Z",
+      "updated": "2017-10-05T04:05:16.603Z",
+      "examples": [
+        {
+          "text": "可愛いのが良い",
+          "created": "2017-10-05T04:05:16.603Z",
+          "updated": "2017-10-05T04:05:16.603Z"
+        },
+        {
+          "text": "かわいいの",
+          "created": "2017-10-05T04:04:50.709Z",
+          "updated": "2017-10-05T04:04:50.709Z"
+        },
+        {
+          "text": "かわいいのある？",
+          "created": "2017-10-05T04:04:52.552Z",
+          "updated": "2017-10-05T04:04:52.552Z"
+        },
+        {
+          "text": "かわいい車",
+          "created": "2017-10-05T04:04:54.370Z",
+          "updated": "2017-10-05T04:04:54.370Z"
+        },
+        {
+          "text": "可愛い車が欲しい",
+          "created": "2017-10-05T04:04:59.449Z",
+          "updated": "2017-10-05T04:04:59.449Z"
+        },
+        {
+          "text": "可愛い車ある？",
+          "created": "2017-10-05T04:05:02.840Z",
+          "updated": "2017-10-05T04:05:02.840Z"
+        },
+        {
+          "text": "かわいいやつ",
+          "created": "2017-10-05T04:05:06.856Z",
+          "updated": "2017-10-05T04:05:06.856Z"
+        },
+        {
+          "text": "かわいい車ある？",
+          "created": "2017-10-05T04:05:13.142Z",
+          "updated": "2017-10-05T04:05:13.142Z"
+        }
+      ],
+      "description": null
+    },
+    {
+      "intent": "終了",
+      "created": "2017-10-05T04:18:15.971Z",
+      "updated": "2017-10-13T10:38:14.705Z",
+      "examples": [
+        {
+          "text": "もうないよ",
+          "created": "2017-10-13T08:10:31.359Z",
+          "updated": "2017-10-13T08:10:31.359Z"
+        },
+        {
+          "text": "ない",
+          "created": "2017-10-13T08:10:28.555Z",
+          "updated": "2017-10-13T08:10:28.555Z"
+        },
+        {
+          "text": "もういらない",
+          "created": "2017-10-05T04:18:45.553Z",
+          "updated": "2017-10-05T04:18:45.553Z"
+        },
+        {
+          "text": "こんなサービスもう使わない",
+          "created": "2017-10-05T04:18:42.621Z",
+          "updated": "2017-10-05T04:18:42.621Z"
+        },
+        {
+          "text": "もう良いよ",
+          "created": "2017-10-05T04:18:33.485Z",
+          "updated": "2017-10-05T04:18:33.485Z"
+        },
+        {
+          "text": "おわり",
+          "created": "2017-10-05T04:18:24.995Z",
+          "updated": "2017-10-05T04:18:24.995Z"
+        },
+        {
+          "text": "おしまい",
+          "created": "2017-10-05T04:18:27.469Z",
+          "updated": "2017-10-05T04:18:27.469Z"
+        },
+        {
+          "text": "ありがとう",
+          "created": "2017-10-13T10:38:14.705Z",
+          "updated": "2017-10-13T10:38:14.705Z"
+        },
+        {
+          "text": "そのくらいかな",
+          "created": "2017-10-13T08:11:12.442Z",
+          "updated": "2017-10-13T08:11:12.442Z"
+        },
+        {
+          "text": "そのくらい",
+          "created": "2017-10-13T08:11:09.819Z",
+          "updated": "2017-10-13T08:11:09.819Z"
+        },
+        {
+          "text": "以上",
+          "created": "2017-10-13T08:10:53.980Z",
+          "updated": "2017-10-13T08:10:53.980Z"
+        },
+        {
+          "text": "もうない",
+          "created": "2017-10-13T08:10:36.726Z",
+          "updated": "2017-10-13T08:10:36.726Z"
+        }
+      ],
+      "description": null
+    },
+    {
+      "intent": "条件安い",
+      "created": "2017-10-05T04:03:32.068Z",
+      "updated": "2017-10-05T04:03:32.068Z",
+      "examples": [
+        {
+          "text": "安ければ良い",
+          "created": "2017-10-05T04:03:32.068Z",
+          "updated": "2017-10-05T04:03:32.068Z"
+        },
+        {
+          "text": "安いものが良い",
+          "created": "2017-10-05T04:03:32.068Z",
+          "updated": "2017-10-05T04:03:32.068Z"
+        },
+        {
+          "text": "安いのが良い",
+          "created": "2017-10-05T04:03:32.068Z",
+          "updated": "2017-10-05T04:03:32.068Z"
+        },
+        {
+          "text": "安いのある？",
+          "created": "2017-10-05T04:03:32.068Z",
+          "updated": "2017-10-05T04:03:32.068Z"
+        },
+        {
+          "text": "安いの",
+          "created": "2017-10-05T04:03:32.068Z",
+          "updated": "2017-10-05T04:03:32.068Z"
+        }
+      ],
+      "description": null
+    },
+    {
+      "intent": "銀",
+      "created": "2017-10-13T09:01:59.755Z",
+      "updated": "2017-10-13T09:02:53.458Z",
+      "examples": [
+        {
+          "text": "銀",
+          "created": "2017-10-13T09:02:05.130Z",
+          "updated": "2017-10-13T09:02:05.130Z"
+        },
+        {
+          "text": "銀色",
+          "created": "2017-10-13T09:02:04.317Z",
+          "updated": "2017-10-13T09:02:04.317Z"
+        },
+        {
+          "text": "シルバー",
+          "created": "2017-10-13T09:02:02.514Z",
+          "updated": "2017-10-13T09:02:02.514Z"
+        },
+        {
+          "text": "silver",
+          "created": "2017-10-13T09:02:00.518Z",
+          "updated": "2017-10-13T09:02:00.518Z"
+        },
+        {
+          "text": "銀のやつ",
+          "created": "2017-10-13T09:02:23.483Z",
+          "updated": "2017-10-13T09:02:23.483Z"
+        },
+        {
+          "text": "銀色の",
+          "created": "2017-10-13T09:02:25.132Z",
+          "updated": "2017-10-13T09:02:25.132Z"
+        },
+        {
+          "text": "銀色のやつ",
+          "created": "2017-10-13T09:02:26.993Z",
+          "updated": "2017-10-13T09:02:26.993Z"
+        },
+        {
+          "text": "銀色の車",
+          "created": "2017-10-13T09:02:10.398Z",
+          "updated": "2017-10-13T09:02:10.398Z"
+        },
+        {
+          "text": "シルバーの車",
+          "created": "2017-10-13T09:02:15.507Z",
+          "updated": "2017-10-13T09:02:15.507Z"
+        },
+        {
+          "text": "銀の",
+          "created": "2017-10-13T09:02:20.911Z",
+          "updated": "2017-10-13T09:02:20.911Z"
+        },
+        {
+          "text": "ねずみ色の車",
+          "created": "2017-10-13T09:02:53.458Z",
+          "updated": "2017-10-13T09:02:53.458Z"
+        },
+        {
+          "text": "ねずみ色",
+          "created": "2017-10-13T09:02:50.789Z",
+          "updated": "2017-10-13T09:02:50.789Z"
+        },
+        {
+          "text": "ねずみいろの",
+          "created": "2017-10-13T09:02:48.602Z",
+          "updated": "2017-10-13T09:02:48.602Z"
+        },
+        {
+          "text": "灰色の",
+          "created": "2017-10-13T09:02:46.421Z",
+          "updated": "2017-10-13T09:02:46.421Z"
+        },
+        {
+          "text": "シルバーの",
+          "created": "2017-10-13T09:02:29.603Z",
+          "updated": "2017-10-13T09:02:29.603Z"
+        },
+        {
+          "text": "シルバーのやつ",
+          "created": "2017-10-13T09:02:31.344Z",
+          "updated": "2017-10-13T09:02:31.344Z"
+        },
+        {
+          "text": "銀の車",
+          "created": "2017-10-13T09:02:07.810Z",
+          "updated": "2017-10-13T09:02:07.810Z"
+        }
+      ],
+      "description": null
+    },
+    {
+      "intent": "白",
+      "created": "2017-10-13T09:03:03.869Z",
+      "updated": "2017-10-13T09:03:41.633Z",
+      "examples": [
+        {
+          "text": "ホワイトの",
+          "created": "2017-10-13T09:03:22.195Z",
+          "updated": "2017-10-13T09:03:22.195Z"
+        },
+        {
+          "text": "白色",
+          "created": "2017-10-13T09:03:29.692Z",
+          "updated": "2017-10-13T09:03:29.692Z"
+        },
+        {
+          "text": "白色の車",
+          "created": "2017-10-13T09:03:31.655Z",
+          "updated": "2017-10-13T09:03:31.655Z"
+        },
+        {
+          "text": "白色のやつ",
+          "created": "2017-10-13T09:03:39.359Z",
+          "updated": "2017-10-13T09:03:39.359Z"
+        },
+        {
+          "text": "白色の",
+          "created": "2017-10-13T09:03:41.633Z",
+          "updated": "2017-10-13T09:03:41.633Z"
+        },
+        {
+          "text": "白の車",
+          "created": "2017-10-13T09:03:10.060Z",
+          "updated": "2017-10-13T09:03:10.060Z"
+        },
+        {
+          "text": "白の",
+          "created": "2017-10-13T09:03:11.262Z",
+          "updated": "2017-10-13T09:03:11.262Z"
+        },
+        {
+          "text": "白いやつ",
+          "created": "2017-10-13T09:03:13.007Z",
+          "updated": "2017-10-13T09:03:13.007Z"
+        },
+        {
+          "text": "白い",
+          "created": "2017-10-13T09:03:14.039Z",
+          "updated": "2017-10-13T09:03:14.039Z"
+        },
+        {
+          "text": "白",
+          "created": "2017-10-13T09:03:15.398Z",
+          "updated": "2017-10-13T09:03:15.398Z"
+        },
+        {
+          "text": "ホワイト",
+          "created": "2017-10-13T09:03:17.538Z",
+          "updated": "2017-10-13T09:03:17.538Z"
+        },
+        {
+          "text": "ホワイトの車",
+          "created": "2017-10-13T09:03:20.506Z",
+          "updated": "2017-10-13T09:03:20.506Z"
+        },
+        {
+          "text": "ホワイトのやつ",
+          "created": "2017-10-13T09:03:23.879Z",
+          "updated": "2017-10-13T09:03:23.879Z"
+        }
+      ],
+      "description": null
+    },
+    {
+      "intent": "青",
+      "created": "2017-10-13T08:57:50.322Z",
+      "updated": "2017-10-13T08:58:39.562Z",
+      "examples": [
+        {
+          "text": "青いやつ",
+          "created": "2017-10-13T08:58:27.301Z",
+          "updated": "2017-10-13T08:58:27.301Z"
+        },
+        {
+          "text": "ブルー",
+          "created": "2017-10-13T08:58:21.904Z",
+          "updated": "2017-10-13T08:58:21.904Z"
+        },
+        {
+          "text": "青色",
+          "created": "2017-10-13T08:58:20.057Z",
+          "updated": "2017-10-13T08:58:20.057Z"
+        },
+        {
+          "text": "青",
+          "created": "2017-10-13T08:58:18.970Z",
+          "updated": "2017-10-13T08:58:18.970Z"
+        },
+        {
+          "text": "青い車",
+          "created": "2017-10-13T08:58:29.805Z",
+          "updated": "2017-10-13T08:58:29.805Z"
+        },
+        {
+          "text": "青いの",
+          "created": "2017-10-13T08:58:39.562Z",
+          "updated": "2017-10-13T08:58:39.562Z"
+        }
+      ],
+      "description": null
+    },
+    {
+      "intent": "挨拶",
+      "created": "2017-10-11T05:41:03.168Z",
+      "updated": "2017-10-11T05:41:29.615Z",
+      "examples": [
+        {
+          "text": "hello",
+          "created": "2017-10-11T05:41:29.615Z",
+          "updated": "2017-10-11T05:41:29.615Z"
+        },
+        {
+          "text": "おはよう",
+          "created": "2017-10-11T05:41:13.431Z",
+          "updated": "2017-10-11T05:41:13.431Z"
+        },
+        {
+          "text": "はろー",
+          "created": "2017-10-11T05:41:18.358Z",
+          "updated": "2017-10-11T05:41:18.358Z"
+        },
+        {
+          "text": "おは",
+          "created": "2017-10-11T05:41:14.406Z",
+          "updated": "2017-10-11T05:41:14.406Z"
+        },
+        {
+          "text": "おはようございます",
+          "created": "2017-10-11T05:41:11.886Z",
+          "updated": "2017-10-11T05:41:11.886Z"
+        },
+        {
+          "text": "こんばんわ",
+          "created": "2017-10-11T05:41:08.765Z",
+          "updated": "2017-10-11T05:41:08.765Z"
+        },
+        {
+          "text": "こんにちは",
+          "created": "2017-10-11T05:41:06.555Z",
+          "updated": "2017-10-11T05:41:06.555Z"
+        },
+        {
+          "text": "やあ",
+          "created": "2017-10-11T05:41:19.115Z",
+          "updated": "2017-10-11T05:41:19.115Z"
+        }
+      ],
+      "description": null
+    },
+    {
+      "intent": "緑",
+      "created": "2017-10-13T08:58:59.011Z",
+      "updated": "2017-10-13T09:00:41.160Z",
+      "examples": [
+        {
+          "text": "緑のやつ",
+          "created": "2017-10-13T09:00:37.968Z",
+          "updated": "2017-10-13T09:00:37.968Z"
+        },
+        {
+          "text": "緑の車",
+          "created": "2017-10-13T09:00:32.074Z",
+          "updated": "2017-10-13T09:00:32.074Z"
+        },
+        {
+          "text": "緑の",
+          "created": "2017-10-13T09:00:29.486Z",
+          "updated": "2017-10-13T09:00:29.486Z"
+        },
+        {
+          "text": "緑色",
+          "created": "2017-10-13T09:00:24.691Z",
+          "updated": "2017-10-13T09:00:24.691Z"
+        },
+        {
+          "text": "緑",
+          "created": "2017-10-13T09:00:21.588Z",
+          "updated": "2017-10-13T09:00:21.588Z"
+        },
+        {
+          "text": "グリーン",
+          "created": "2017-10-13T09:00:19.788Z",
+          "updated": "2017-10-13T09:00:19.788Z"
+        },
+        {
+          "text": "緑色の",
+          "created": "2017-10-13T09:00:41.160Z",
+          "updated": "2017-10-13T09:00:41.160Z"
+        },
+        {
+          "text": "グリーンの車",
+          "created": "2017-10-13T09:00:35.342Z",
+          "updated": "2017-10-13T09:00:35.342Z"
+        }
+      ],
+      "description": null
+    }
+  ],
+  "updated": "2017-10-18T02:32:19.370Z",
+  "entities": [
+    {
+      "entity": "終了",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "終了",
+          "created": "2017-10-11T02:49:46.992Z",
+          "updated": "2017-10-11T02:50:25.009Z",
+          "metadata": null,
+          "synonyms": [
+            "おしまい",
+            "おわり",
+            "もういい",
+            "もういいよ",
+            "終了で",
+            "終わり",
+            "以上"
+          ]
+        }
+      ],
+      "created": "2017-10-11T02:49:37.735Z",
+      "updated": "2017-10-11T02:50:25.009Z",
+      "metadata": null,
+      "description": null
+    },
+    {
+      "entity": "sys-time",
+      "values": [],
+      "created": "2017-10-11T05:42:54.975Z",
+      "updated": "2017-10-11T05:42:54.975Z",
+      "metadata": null,
+      "description": null
+    },
+    {
+      "entity": "購入希望",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "買いたい",
+          "created": "2017-10-05T04:00:29.588Z",
+          "updated": "2017-10-05T04:00:43.016Z",
+          "metadata": null,
+          "synonyms": [
+            "欲しい",
+            "探している"
+          ]
+        }
+      ],
+      "created": "2017-10-05T04:00:20.390Z",
+      "updated": "2017-10-05T04:00:43.016Z",
+      "metadata": null,
+      "description": null
+    }
+  ],
+  "language": "ja",
+  "metadata": {
+    "api_version": {
+      "major_version": "v1",
+      "minor_version": "2017-05-26"
+    }
+  },
+  "description": "",
+  "dialog_nodes": [
+    {
+      "title": null,
+      "output": {
+        "text": {
+          "values": [
+            "解釈できませんでした。こちらの車はいかがでしょうか。"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_21_1507177260617",
+      "context": {
+        "sendResultImage": "on"
+      },
+      "created": "2017-10-13T09:28:29.344Z",
+      "updated": "2017-10-17T02:26:45.129Z",
+      "metadata": null,
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_1_1507784918990"
+      },
+      "conditions": "true",
+      "description": null,
+      "dialog_node": "node_12_1507886910671",
+      "previous_sibling": "node_1_1507784918990"
+    },
+    {
+      "title": "推奨結果",
+      "output": {},
+      "parent": "node_21_1507177260617",
+      "context": null,
+      "created": "2017-10-12T05:08:40.075Z",
+      "updated": "2017-10-13T08:45:30.678Z",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": null,
+      "conditions": "#推奨結果",
+      "description": null,
+      "dialog_node": "node_1_1507784918990",
+      "previous_sibling": null
+    },
+    {
+      "type": "response_condition",
+      "title": null,
+      "output": {
+        "text": {
+          "values": [
+            "これは大変失礼しました。サービス向上に励みます。"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1507784918990",
+      "context": {
+        "sendResultImage": "off"
+      },
+      "created": "2017-10-12T05:12:05.176Z",
+      "updated": "2017-10-17T00:55:55.774Z",
+      "metadata": null,
+      "next_step": null,
+      "conditions": "$anger >= 0.2",
+      "description": null,
+      "dialog_node": "node_3_1507785124164",
+      "previous_sibling": "node_2_1507785106680"
+    },
+    {
+      "type": "response_condition",
+      "title": null,
+      "output": {
+        "text": {
+          "values": [
+            "ご満足いただけたようで良かったです。またのご利用をお待ちしております。"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1507784918990",
+      "context": {
+        "sendResultImage": "off"
+      },
+      "created": "2017-10-12T05:11:47.702Z",
+      "updated": "2017-10-17T05:01:49.794Z",
+      "metadata": null,
+      "next_step": null,
+      "conditions": "$anger < 0.2",
+      "description": null,
+      "dialog_node": "node_2_1507785106680",
+      "previous_sibling": null
+    },
+    {
+      "title": null,
+      "output": {},
+      "parent": "node_16_1507176072839",
+      "context": null,
+      "created": "2017-10-16T00:36:12.537Z",
+      "updated": "2017-10-17T02:27:11.184Z",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_1_1507884483812"
+      },
+      "conditions": "true",
+      "description": null,
+      "dialog_node": "node_1_1508114176081",
+      "previous_sibling": "node_1_1507884483812"
+    },
+    {
+      "title": "色の指定",
+      "output": {},
+      "parent": "node_16_1507176072839",
+      "context": null,
+      "created": "2017-10-13T08:48:02.517Z",
+      "updated": "2017-10-13T09:09:41.033Z",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": null,
+      "conditions": "#緑 || #青 || #黒 || #紫 || #赤 || #白 && #銀 || #黄色",
+      "description": null,
+      "dialog_node": "node_1_1507884483812",
+      "previous_sibling": null
+    },
+    {
+      "type": "response_condition",
+      "title": null,
+      "output": {
+        "text": {
+          "values": [
+            "解釈できませんでした。どのような車をご希望ですか？"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1508114176081",
+      "context": null,
+      "created": "2017-10-16T01:29:25.015Z",
+      "updated": "2017-10-16T02:34:12.680Z",
+      "metadata": null,
+      "next_step": null,
+      "conditions": null,
+      "description": null,
+      "dialog_node": "node_5_1508117368656",
+      "previous_sibling": null
+    },
+    {
+      "type": "response_condition",
+      "title": null,
+      "output": {
+        "text": {
+          "values": [
+            "赤色の車ですね。他にはありますか？"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1507884483812",
+      "context": {
+        "carColor": "red"
+      },
+      "created": "2017-10-13T09:06:26.345Z",
+      "updated": "2017-10-13T09:13:32.507Z",
+      "metadata": null,
+      "next_step": null,
+      "conditions": "#赤",
+      "description": null,
+      "dialog_node": "node_6_1507885587684",
+      "previous_sibling": "node_5_1507885570697"
+    },
+    {
+      "title": null,
+      "output": {
+        "text": {
+          "values": [
+            "解釈できませんでした。他にご希望はありますか？"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1507884483812",
+      "context": null,
+      "created": "2017-10-16T00:55:40.016Z",
+      "updated": "2017-10-17T02:26:32.788Z",
+      "metadata": null,
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_21_1507177260617"
+      },
+      "conditions": "true",
+      "description": null,
+      "dialog_node": "node_4_1508115343526",
+      "previous_sibling": "node_21_1507177260617"
+    },
+    {
+      "type": "response_condition",
+      "title": null,
+      "output": {
+        "text": {
+          "values": [
+            "緑色の車ですね。他にはありますか？"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1507884483812",
+      "context": {
+        "carColor": "green"
+      },
+      "created": "2017-10-13T09:07:25.300Z",
+      "updated": "2017-10-13T09:14:01.446Z",
+      "metadata": null,
+      "next_step": null,
+      "conditions": "#緑",
+      "description": null,
+      "dialog_node": "node_10_1507885646284",
+      "previous_sibling": "node_9_1507885628503"
+    },
+    {
+      "type": "response_condition",
+      "title": null,
+      "output": {
+        "text": {
+          "values": [
+            "黒色の車ですね。他にはありますか？"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1507884483812",
+      "context": {
+        "carColor": "black"
+      },
+      "created": "2017-10-13T09:06:54.489Z",
+      "updated": "2017-10-13T09:13:40.740Z",
+      "metadata": null,
+      "next_step": null,
+      "conditions": "#黒",
+      "description": null,
+      "dialog_node": "node_8_1507885615833",
+      "previous_sibling": "node_7_1507885601057"
+    },
+    {
+      "type": "response_condition",
+      "title": null,
+      "output": {
+        "text": {
+          "values": [
+            "白色のですね。他にはありますか？"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1507884483812",
+      "context": {
+        "carColor": "white"
+      },
+      "created": "2017-10-13T09:05:52.112Z",
+      "updated": "2017-10-13T09:13:23.290Z",
+      "metadata": null,
+      "next_step": null,
+      "conditions": "#白",
+      "description": null,
+      "dialog_node": "node_4_1507885553315",
+      "previous_sibling": "node_3_1507885488875"
+    },
+    {
+      "type": "response_condition",
+      "title": null,
+      "output": {
+        "text": {
+          "values": [
+            "黄色の車ですね。他にはありますか？"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1507884483812",
+      "context": {
+        "carColor": "yellow"
+      },
+      "created": "2017-10-13T09:04:47.541Z",
+      "updated": "2017-10-16T04:30:25.462Z",
+      "metadata": null,
+      "next_step": null,
+      "conditions": "#黄色",
+      "description": null,
+      "dialog_node": "node_3_1507885488875",
+      "previous_sibling": "node_4_1508115343526"
+    },
+    {
+      "type": "response_condition",
+      "title": null,
+      "output": {
+        "text": {
+          "values": [
+            "紫色の車ですね。他にはありますか？"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1507884483812",
+      "context": {
+        "carColor": "purple"
+      },
+      "created": "2017-10-13T09:06:39.720Z",
+      "updated": "2017-10-13T09:13:36.448Z",
+      "metadata": null,
+      "next_step": null,
+      "conditions": "#紫",
+      "description": null,
+      "dialog_node": "node_7_1507885601057",
+      "previous_sibling": "node_6_1507885587684"
+    },
+    {
+      "type": "response_condition",
+      "title": null,
+      "output": {
+        "text": {
+          "values": [
+            "シルバーの車ですね。他にはありますか？"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1507884483812",
+      "context": {
+        "carColor": "silver"
+      },
+      "created": "2017-10-13T09:06:09.406Z",
+      "updated": "2017-10-13T09:13:28.770Z",
+      "metadata": null,
+      "next_step": null,
+      "conditions": "#銀",
+      "description": null,
+      "dialog_node": "node_5_1507885570697",
+      "previous_sibling": "node_4_1507885553315"
+    },
+    {
+      "type": "response_condition",
+      "title": null,
+      "output": {
+        "text": {
+          "values": [
+            "青色の車ですね。他にはありますか？"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1507884483812",
+      "context": {
+        "carColor": "blue"
+      },
+      "created": "2017-10-13T09:07:07.264Z",
+      "updated": "2017-10-13T09:13:51.819Z",
+      "metadata": null,
+      "next_step": null,
+      "conditions": "#青",
+      "description": null,
+      "dialog_node": "node_9_1507885628503",
+      "previous_sibling": "node_8_1507885615833"
+    },
+    {
+      "title": null,
+      "output": {
+        "text": {
+          "values": [
+            "あなたのご要望に合う車はこちらです。いかがでしょうか。"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1507884483812",
+      "context": {
+        "sendResultImage": "on"
+      },
+      "created": "2017-10-05T04:21:00.851Z",
+      "updated": "2017-10-16T02:31:51.507Z",
+      "metadata": null,
+      "next_step": null,
+      "conditions": "#終了",
+      "description": null,
+      "dialog_node": "node_21_1507177260617",
+      "previous_sibling": null
+    },
+    {
+      "title": "挨拶",
+      "output": {
+        "text": {
+          "values": [
+            "こんにちは。中古車販売支援botです。あなたのカーライフをサポートします。ご用件をどうぞ。"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": null,
+      "context": {
+        "sendResultImage": "off"
+      },
+      "created": "2017-10-11T12:22:25.445Z",
+      "updated": "2017-10-13T08:45:16.612Z",
+      "metadata": null,
+      "next_step": null,
+      "conditions": "#挨拶",
+      "description": null,
+      "dialog_node": "node_7_1507724545174",
+      "previous_sibling": "node_16_1507176072839"
+    },
+    {
+      "title": null,
+      "output": {
+        "text": {
+          "values": [
+            "どのような車をご希望ですか？"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": null,
+      "context": {
+        "sendResultImage": "off"
+      },
+      "created": "2017-10-05T04:01:13.804Z",
+      "updated": "2017-10-16T02:34:19.648Z",
+      "metadata": null,
+      "next_step": null,
+      "conditions": "#購入希望",
+      "description": null,
+      "dialog_node": "node_16_1507176072839",
+      "previous_sibling": "node_1_1508127605244"
+    },
+    {
+      "title": "その他",
+      "output": {
+        "text": {
+          "values": [
+            "解釈できませんでした。中古車販売支援botです。あなたのカーライフをサポートします。ご用件をどうぞ。"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": null,
+      "context": {
+        "sendResultImage": "off"
+      },
+      "created": "2017-10-05T04:01:06.779Z",
+      "updated": "2017-10-17T00:21:39.484Z",
+      "metadata": null,
+      "next_step": null,
+      "conditions": "true",
+      "description": null,
+      "dialog_node": "その他",
+      "previous_sibling": "node_7_1507724545174"
+    },
+    {
+      "title": null,
+      "output": {
+        "text": {
+          "values": [
+            "中古車販売支援botです。あなたのカーライフをサポートします。ご用件をどうぞ。"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": null,
+      "context": null,
+      "created": "2017-10-16T04:20:05.530Z",
+      "updated": "2017-10-16T04:22:36.025Z",
+      "metadata": null,
+      "next_step": null,
+      "conditions": "welcome",
+      "description": null,
+      "dialog_node": "node_1_1508127605244",
+      "previous_sibling": null
+    }
+  ],
+  "workspace_id": "f6f0c813-f484-4fea-a526-6f4c4a94c432",
+  "counterexamples": [],
+  "learning_opt_out": false
+}
