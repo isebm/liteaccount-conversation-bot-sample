@@ -12,5 +12,5 @@ services:
 - <Conversationのサービス名>
 - <Language Tlanslatorのサービス名>
 env:
-lineBotAccessToken : <LINE botのアクセストークン>
-convesationID : <ConversationのWorkspace ID>
+ lineBotAccessToken : <LINE botのアクセストークン>
+ convesationID : <ConversationのWorkspace ID>
