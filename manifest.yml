@@ -1,16 +1,16 @@
 declared-services:
   sample-conversation-service:
     label: conversation
-    plan: Lite
+    plan: free
   sample-cloudantNoSQLDB-service:
     label: cloudantNoSQLDB
     plan: Lite
   sample-toneanalyzer-service:
     label: tone_analyzer
-    plan: Lite
+    plan: free
   sample-languagetranslator-service:
     label: language_translator
-    plan: Lite
+    plan: free
 applications:
 - path: .
 memory: 128M
