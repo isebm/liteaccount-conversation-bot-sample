@@ -7,10 +7,10 @@ declared-services:
     plan: Lite
   sample-toneanalyzer-service:
     label: tone_analyzer
-    plan: free
+    plan: Lite
   sample-languagetranslator-service:
     label: language_translator
-    plan: free
+    plan: Lite
 applications:
 - path: .
 memory: 128M
