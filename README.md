@@ -41,7 +41,7 @@
 　　　![bot_flow06](images/bot_flow06.png)  
 
 # Deploy to IBM Cloud!
-[![Deploy to IBM Cloud](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/motokazu/liteaccount-conversation-bot-sample.git&branch=master)
+[![Deploy to IBM Cloud](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/motokazu/liteaccount-conversation-bot-sample.git&branch=liteaccount-bot-sample-test)
 
 # 3. セットアップ手順(step)
 #### 前提条件
