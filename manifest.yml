@@ -1,16 +1,28 @@
+declared-services:
+  sample-conversation-service:
+    label: conversation
+    plan: Lite
+  sample-cloudantNoSQLDB-service:
+    label: cloudantNoSQLDB
+    plan: Lite
+  sample-toneanalyzer-service:
+    label: tone_analyzer
+    plan: Lite
+  sample-languagetranslator-service:
+    label: language_translator
+    plan: Lite
 applications:
 - path: .
 memory: 128M
 instances: 1
 domain: mybluemix.net
-name: <アプリケーション名>
-host: <ホスト名>
-disk_quota: 1024M
+name: liteaccount-conversation-bot-sample1
+disk_quota: 256M
 services:
-- <Cloudant NoSQL DBのサービス名(例:Coudant NoSQL DB-Aa)>
-- <Tone Analyzerのサービス名>
-- <Conversationのサービス名>
-- <Language Tlanslatorのサービス名>
+- sample-cloudantNoSQLDB-service
+- sample-toneanalyzer-service
+- sample-conversation-service
+- sample-languagetranslator-service
 env:
- lineBotAccessToken : <LINE botのアクセストークン>
- convesationID : <ConversationのWorkspace ID>
+ lineBotAccessToken : LINEbotAccessToken
+ convesationID : ConversationWorkspaceID
