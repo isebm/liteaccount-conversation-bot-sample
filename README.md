@@ -40,7 +40,10 @@
 **<font color="Red">送られた画像に対して怒ったようなコメントをすると、怒りの度合いを検知して謝罪が返ってきます</font>**  
 　　　![bot_flow06](images/bot_flow06.png)  
 
-# 3. セットアップ手順
+# Deploy to IBM Cloud!
+[![Deploy to IBM Cloud](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/motokazu/liteaccount-conversation-bot-sample.git&branch=liteaccount-bot-sample-test)
+
+# 3. セットアップ手順(step)
 #### 前提条件
 - Bluemixのアカウントを所持していること
 - PCにBluemixコマンド(bxコマンド)がインストールされていること
@@ -211,6 +214,7 @@ Bluemixで、(1.1)で作成したランタイムの概要画面の左メニュ�
 
 **10.6**  
 (10.1)でメモしたIPアドレスを入力し「確認」をクリックする  
+(この時 サブネットマスクは入力不要)
 
 **10.7**  
 「登録」をクリックする  
